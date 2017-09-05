@@ -1,7 +1,7 @@
 #!/bin/bash
 BASE=$(dirname $0)
 
-FILES=${@:- "$BASE/domains/domains_forward.txt" "$BASE/domains/domains_arpa.txt" "$BASE/domains/domains_perso.txt" }
+FILES=${@:- "$BASE/domains/domains.txt" }
 
 function listDNSip() {
 	local domain="$1"
