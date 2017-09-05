@@ -1,0 +1,7 @@
+univ-lehavre.fr
+165.48.193.in-addr.arpa.
+167.48.193.in-addr.arpa.
+167.52.193.in-addr.arpa.
+108.254.194.in-addr.arpa.
+109.254.194.in-addr.arpa.
+110.254.194.in-addr.arpa.

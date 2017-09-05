@@ -1,0 +1,13 @@
+insa-rouen.fr
+8.49.193.in-addr.arpa.
+9.49.193.in-addr.arpa.
+10.49.193.in-addr.arpa.
+11.49.193.in-addr.arpa.
+12.49.193.in-addr.arpa.
+13.254.194.in-addr.arpa.
+14.254.194.in-addr.arpa.
+15.254.194.in-addr.arpa.
+16.254.194.in-addr.arpa.
+17.254.194.in-addr.arpa.
+18.254.194.in-addr.arpa.
+19.254.194.in-addr.arpa.

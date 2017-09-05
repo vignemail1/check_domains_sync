@@ -1,0 +1,4 @@
+coria.fr
+86.83.195.in-addr.arpa.
+87.83.195.in-addr.arpa.
+88.83.195.in-addr.arpa.
