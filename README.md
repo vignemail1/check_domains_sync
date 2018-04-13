@@ -2,7 +2,7 @@
 
 A bunch of Bash scripts used to analyze some discrepancies between domains definitions and to check reachability across all configured nameservers for these domains.
 
-Uses Bash and dig.
+Uses Bash and dig. Need to be launch on a server which can receive UDP responses from external DNS servers.
 
 ## NRPE probe
 
@@ -12,7 +12,8 @@ Add domains in the `domains/domains.txt` file, one per line.
 
 `nrpe_read.sh` output example:
 ~~~
-Critical:  check_domains (09/05 15:40:26: 195.221.20.53) : Last check: 2017-09-05 15:40:01, #domains: 256( nxdomain[0]  ) ( silent[0]  ) ( master[0]  ) ( conn[0]  ) ( soa[2] domain1.tld 5.168.192.in-addr-arpa.) (external[0])
+Critical:  check_domains (09/05 15:40:26: 195.221.20.53) : Last check: 2017-09-05 15:40:01, #domains: 256
+( nxdomain[0]  ) ( silent[0]  ) ( master[0]  ) ( conn[0]  ) ( soa[2] domain1.tld 5.168.192.in-addr-arpa.) (external[0])
 ~~~
 
 
