@@ -24,7 +24,8 @@ function check_domain() {
     local out
     out=$(dig @0 ${local_opts} +nssearch ${dig_opts} $domain 2> /dev/null | tr "[:lower:]" "[:upper:]")
     local has_error=$?
-
+	## Edit the following line to match your domains hosting servers IP addresses
+	## This test is used to categorized if one of your server(s) is master or slave for the domain
 	local ORG_ns_soa=$(echo "$out" | egrep -iq "(8.8.8.8|9.9.9.9|1.1.1.1)" &> /dev/null; echo $?)
 
     local nb
