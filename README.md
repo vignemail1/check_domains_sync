@@ -2,7 +2,7 @@
 
 A bunch of Bash scripts used to analyze some discrepancies between domains definitions and to check reachability across all configured nameservers for these domains.
 
-Uses Bash and dig. Need to be launch on a server which can receive UDP responses from external DNS servers.
+Uses Bash and dig. Need to be launched on a server which can receive UDP responses from external DNS servers.
 
 ## NRPE probe
 
