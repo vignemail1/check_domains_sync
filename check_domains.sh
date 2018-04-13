@@ -25,7 +25,7 @@ function check_domain() {
     out=$(dig @0 ${local_opts} +nssearch ${dig_opts} $domain 2> /dev/null | tr "[:lower:]" "[:upper:]")
     local has_error=$?
 
-	local ORG_ns_soa=$(echo "$out" | egrep -iq "(195.221.20.10|193.52.218.19|ns.crihan.fr|ns1.syrhano.net|sv.crihan.fr)" &> /dev/null; echo $?)
+	local ORG_ns_soa=$(echo "$out" | egrep -iq "(8.8.8.8|9.9.9.9|1.1.1.1)" &> /dev/null; echo $?)
 
     local nb
     local nbdedup
